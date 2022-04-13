@@ -12,7 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "boxen": "^6.2.1",
     "chalk": "^5.0.1",
+    "ora": "^6.1.0",
     "prompt-sync": "^4.1.6"
   },
   "devDependencies": {
