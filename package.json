@@ -5,8 +5,7 @@
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node ./dist/index.js",
-    "watch": "nodemon ./src/index.ts --watch",
+    "start": "node --experimental-modules --es-module-specifier-resolution=node ./dist/index.js",
     "build": "tsc --project tsconfig.json",
     "test": "jest"
   },
